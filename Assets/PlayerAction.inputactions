@@ -1,0 +1,54 @@
+{
+    "name": "PlayerAction",
+    "maps": [
+        {
+            "name": "PlayerControls",
+            "id": "014207ae-1fd5-4c78-9a7e-86e63c892ec1",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "00eede8e-6b9c-4b4e-82d0-9e54cf0c76e8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Movment",
+                    "type": "Value",
+                    "id": "ed21ffa1-06c0-4965-8bf5-5a475b0919ec",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "112fd1d4-6c97-4ae8-99c7-dd33c4574131",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca6f6cd7-a815-4f81-bf65-641eedfea87d",
+                    "path": "<XInputController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movment",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
