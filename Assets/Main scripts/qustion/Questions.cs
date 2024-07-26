@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-//attatched to the plane 
+//attatched to the planes
 public class CanvasController : MonoBehaviour
 {
     public GameObject canvas;
