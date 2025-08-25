@@ -28,7 +28,7 @@
                 {
                     "name": "",
                     "id": "112fd1d4-6c97-4ae8-99c7-dd33c4574131",
-                    "path": "<XInputController>/buttonSouth",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
